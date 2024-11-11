@@ -7,12 +7,16 @@
   <p align="center">
     Sentimental Analysis on Tweets.
     <br />
-    <a href="https://github.com/Skyglow-DS/Tweeting-Emotions/blob/main/Reports/Tweeting_Emotions.pdf"><strong>Final Report »</strong></a>
+    <a href="https://github.com/SkyglowDS/Tweeting-Emotions/blob/main/Reports/Tweeting_Emotions.pdf"><strong>Final Report »</strong></a>
+    <br />
+
+    <br />
+    <a href="https://github.com/SkyglowDS/Tweeting-Emotions/blob/main/Reports/Tweeting Emotions - Presentation.pptx"><strong>Final Presentation »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Skyglow-DS/Tweeting-Emotions/tree/main/Code">View Code</a>
+    <a href="https://github.com/SkyglowDS/Tweeting-Emotions/tree/main/Code">View Code</a>
     ·
-    <a href="https://github.com/Skyglow-DS/Tweeting-Emotions/tree/main/Reports">View Reports</a>
+    <a href="https://github.com/SkyglowDS/Tweeting-Emotions/tree/main/Reports">View Reports</a>
 
   </p>
 
@@ -74,14 +78,14 @@ pip install -r requirements.txt
    <a href="https://www.kaggle.com/datasets/kazanova/sentiment140/data">Kaggle Sentiment 140</a>
 
    Run the notebook:
-   <a href="https://github.com/Skyglow-DS/Tweeting-Emotions/blob/main/Code/prototype.ipynb">prototype.ipynb</a>
+   <a href="https://github.com/SkyglowDS/Tweeting-Emotions/blob/main/Code/prototype.ipynb">prototype.ipynb</a>
 
 4. Train model:   
-   Use <a href="https://github.com/Skyglow-DS/Tweeting-Emotions/blob/main/Code/production/modeling.ipynb">modeling.ipynb</a> For Naive Bayes and Logistic Regression
-   Use <a href="https://github.com/Skyglow-DS/Tweeting-Emotions/blob/main/Code/production/modeling_nn.ipynb">modeling_nn.ipynb</a> RNN
-   Use <a href="https://github.com/Skyglow-DS/Tweeting-Emotions/blob/main/Code/production/modeling_nn_es.ipynb">modeling_nn_es.ipynb</a> RNN with Early Stopping
+   Use <a href="https://github.com/SkyglowDS/Tweeting-Emotions/blob/main/Code/production/modeling.ipynb">modeling.ipynb</a> For Naive Bayes and Logistic Regression  
+   Use <a href="https://github.com/SkyglowDS/Tweeting-Emotions/blob/main/Code/production/modeling_nn.ipynb">modeling_nn.ipynb</a> RNN  
+   Use <a href="https://github.com/SkyglowDS/Tweeting-Emotions/blob/main/Code/production/modeling_nn_es.ipynb">modeling_nn_es.ipynb</a> RNN with Early Stopping  
 5. Test model on Samples:  
-   Use <a href="https://github.com/Skyglow-DS/Tweeting-Emotions/blob/main/Code/production/model_evaluation.ipynb">model_testing.ipynb</a>
+   Use <a href="https://github.com/SkyglowDS/Tweeting-Emotions/blob/main/Code/production/model_evaluation.ipynb">model_testing.ipynb</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
