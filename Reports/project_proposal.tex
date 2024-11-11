@@ -1,0 +1,63 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{url}
+
+
+\newcommand{\twitter}{$\mathbb{X}$ (formerly Twitter)}
+\newcommand{\tweets}{tweets}
+
+\title{Fall 2024 \\
+Project Proposal}
+\author{Edward Wang}
+\date{}
+
+\begin{document}
+\maketitle
+
+% \begin{abstract}
+% Your abstract.
+% \end{abstract}
+
+\section{Project Description}
+
+The objective of this project is to identify the most effective models for Natural Language Processing (NLP), with a particular focus on sentiment analysis of online text. In particular, various \tweets\ from $\mathbb{X}$, formerly known as Twitter will be used where the contents of each post will be classified into three main categories: negative, neutral, and positive. 
+
+\section{Data Collection}
+
+The data source for this project is the Stanford Sentiment140 Dataset\cite{go2009twitter}, which contains 1.6 million \tweets\ extracted from \twitter \;API. This dataset was collected in 2009, when posts were limited to 140 characters, even though the current limit has been increased to 280 characters. Unfortunately, the original dataset is no longer hosted by Stanford. It is now accessible through Kaggle\cite{kazanova_sentiment140} and Hugging Face.
+
+\section{Proposed Methodology}
+
+\subsection{Data Cleaning}  
+
+In this dataset, \tweets\ often exhibits typical attributes found in online social media including user mentions, hyperlinks, emojis, abbrevations, and slang. To prevent specific usernames from influencing sentiment analysis, it is essential to eliminate mentions (e.g., @User123) and hyperlinks. For instance, a user like @PositiveQuoteDaily, who consistently shares positive content, could inadvertently bias the model towards associating this username with positive sentiment.  
+
+Furthermore, to enhance the quality of the data, it is crucial to remove stopwords—those commonly occurring words in any natural language that contribute little semantic value. Stopwords includes articles, conjunctions, prepositions, pronouns, and frequently used verbs.  
+
+Since words can take various forms based on tense, employing techniques such as stemming or lemmatization is necessary to reduce words to their root forms\cite{stanford_nlp_stemming_lemmatization}. Identifying the most effective method for this purpose will be a key aspect of this analysis.
+
+\subsection{Modeling}
+
+The objective is to conduct sentiment analysis on online text, for which a neural network model is most suitable. Specifically, the Recurrent Neural Network (RNN). RNN is a type of deep learning architecture designed to handle sequential data, making it particularly effective for natural language processing (NLP) and speech recognition tasks\cite{shervine_rnn_cheatsheet}.
+
+The goal would be to explore the various RNN models currently available. For example, the Long Short-Term Memory would be a specific RNN that is good at capturing the dependencies in text sequences. Additionally, Bidirectional LSTMs allows processing input data in both forward and backward directions which provides improved performance for context retrieval in both future and past states. Additionally, exploring state of the art models such as Bert\cite{huggingface_bert} created by Google that have significant improvements in the field of NLP. 
+
+\pagebreak
+
+\bibliographystyle{plainurl}
+\bibliography{project_proposal}
+
+\end{document}
