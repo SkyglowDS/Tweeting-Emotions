@@ -9,7 +9,6 @@
     <br />
     <a href="https://github.com/SkyglowDS/Tweeting-Emotions/blob/main/Reports/Tweeting_Emotions.pdf"><strong>Final Report »</strong></a>
     <br />
-
     <br />
     <a href="https://github.com/SkyglowDS/Tweeting-Emotions/blob/main/Reports/Tweeting Emotions - Presentation.pptx"><strong>Final Presentation »</strong></a>
     <br />
@@ -78,7 +77,7 @@ pip install -r requirements.txt
    <a href="https://www.kaggle.com/datasets/kazanova/sentiment140/data">Kaggle Sentiment 140</a>
 
    Run the notebook:
-   <a href="https://github.com/SkyglowDS/Tweeting-Emotions/blob/main/Code/prototype.ipynb">prototype.ipynb</a>
+   <a href="https://github.com/SkyglowDS/Tweeting-Emotions/blob/main/Code/generate_dataset.ipynb">generate_dataset.ipynb</a>
 
 4. Train model:   
    Use <a href="https://github.com/SkyglowDS/Tweeting-Emotions/blob/main/Code/production/modeling.ipynb">modeling.ipynb</a> For Naive Bayes and Logistic Regression  
