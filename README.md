@@ -10,7 +10,7 @@
     <a href="https://github.com/SkyglowDS/Tweeting-Emotions/blob/main/Reports/Tweeting_Emotions.pdf"><strong>Final Report »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/SkyglowDS/Tweeting-Emotions/blob/main/Reports/Tweeting Emotions - Presentation.pptx"><strong>Final Presentation »</strong></a>
+    <a href="https://github.com/SkyglowDS/Tweeting-Emotions/blob/main/Reports/Tweeting_Emotions_Presentation.pdf"><strong>Final Presentation »</strong></a>
     <br />
     <br />
     <a href="https://github.com/SkyglowDS/Tweeting-Emotions/tree/main/Code">View Code</a>
